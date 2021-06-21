@@ -7,9 +7,7 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="floating-wpp.min.css">
-	<script src="//code.jquery.com/jquery-latest.min.js"></script>
-	<script type="text/javascript" src="floating-wpp.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<style>
 		body,h1,h2,h3,h4,h5 {
 			font-family: "Poppins", sans-serif
@@ -74,10 +72,30 @@
 				flex-direction: column;
 			}
 		}
+		.float{
+			position:fixed;
+			width:60px;
+			height:60px;
+			bottom:40px;
+			right:40px;
+			background-color:#25d366;
+			color:#FFF;
+			border-radius:50px;
+			text-align:center;
+			font-size:30px;
+			box-shadow: 2px 2px 3px #999;
+			z-index:100;
+		}
+
+		.my-float{
+			margin-top:16px;
+		}
 	</style>
 	</head><body>
 
-		<div class="floating-wpp"></div>
+		<a href="https://api.whatsapp.com/send?phone=91981920145" class="float" target="_blank">
+			<i class="fa fa-whatsapp my-float"></i>
+		</a>
 		<!-- Sidebar/menu -->
 		<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index: 3; width: 300px; font-weight: bold; display: none;" id="mySidebar"><br>
 			<a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
@@ -365,19 +383,6 @@
 		  var captionText = document.getElementById("caption");
 		  captionText.innerHTML = element.alt;
 		}
-		$(function () {
-        $('.floating-wpp').floatingWhatsApp({
-            phone: '919819201453',
-            popupMessage: 'Welcome to Anjani Decorators',
-            showPopup: true,
-            position: 'right', // left or right
-            autoOpen: false, // true or false
-            //autoOpenTimer: 4000,
-            message: 'Hello! I wan to enquire something.',
-            //headerColor: 'orange', // enable to change msg box color
-            headerTitle: 'Whatsapp Message',
-        });
-    });
 		</script>
 
 	
