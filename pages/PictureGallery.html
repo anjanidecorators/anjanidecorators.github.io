@@ -47,6 +47,30 @@
 			margin: 4px 2px;
 			cursor: pointer;
 		}
+		/* Container for flexboxes */
+		.row {
+		display: flex;
+		flex-wrap: wrap;
+		}
+
+		/* Create four equal columns */
+		.column {
+		flex: 25%;
+		padding: 20px;
+		}
+
+		@media screen and (max-width: 992px) {
+			.column {
+				flex: 50%;
+			}
+		}
+
+		@media screen and (max-width: 600px) {
+			.row {
+				flex-direction: column;
+			}
+		}
+
 	</style>
 	</head><body>
 
@@ -84,270 +108,393 @@
 		  <!-- Gallery -->
 		  <div class="w3-row-padding" id="gallery">
 			<h1 class="w3-xxxlarge w3-text-red"><b>Gallery</b></h1>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/main/18.jpg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/main/25.jpg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/main/31.jpg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/main/20.jpg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-1.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-2.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-6.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-7.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-8.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-9.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-10.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-11.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			
-<!-- ------------------------ -->
-
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/main/19.jpg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/main/26.jpg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/main/32.jpg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/main/23.jpg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-3.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-28.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-37.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-13.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-15.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-16.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-17.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-18.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-<!-- ------------------------ -->
-			
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/main/21.jpg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/main/29.jpg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/main/28.jpg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/main/FilmSet.jpg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-4.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-27.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-19.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-20.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-21.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-22.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-23.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-24.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-26.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-<!-- ------------------------ -->
-			
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/main/22.jpg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/main/30.jpg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/main/27.jpg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/main/Wedding.jpg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-5.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-29.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-30.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-31.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-32.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-33.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-34.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-35.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-			<div class="w3-col m4 w3-margin-bottom">
-				<div class="w3-light-grey">
-				  <img src="/images/Image-36.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
-				</div>
-			</div>
-<!-- ------------------------ -->
 		  </div>
+
+		  <div class="row">
+			<div class="column">
+				<img src="/images/main/1.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/main/2.JPG" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/main/3.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/main/4.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+		  </div>
+
+		  <div class="row">
+			<div class="column">
+				<img src="/images/main/5.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/main/6.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/main/7.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/main/8.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+		  </div>
+
+		  <div class="row">
+			<div class="column">
+				<img src="/images/new/Image-1.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-2.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-3.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-4.jpeg"width:100%; height:160px" onclick="onClick(this)">
+			</div>
+		  </div>
+
+		  <div class="row">
+			<div class="column">
+				<img src="/images/new/Image-5.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-6.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-8.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-7.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+		  </div>
+
+		  <div class="row">
+			<div class="column">
+				<img src="/images/new/Image-9.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-10.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-11.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-12.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+		  </div>
+
+		  <div class="row">
+			<div class="column">
+				<img src="/images/main/9.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/main/10.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/main/11.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/main/12.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+		  </div>
+
+		  <div class="row">
+			<div class="column">
+				<img src="/images/new/Image-13.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-14.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-15.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-16.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+		  </div>
+
+		  <div class="row">
+			<div class="column">
+				<img src="/images/main/13.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/main/14.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/main/15.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/main/16.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+		  </div>
+
+		  <div class="row">
+			<div class="column">
+				<img src="/images/new/Image-17.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-18.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-19.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-20.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+		  </div>
+
+		  <div class="row">
+			<div class="column">
+				<img src="/images/main/17.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/main/18.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/main/19.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/main/20.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+		  </div>
+
+
+		  <div class="row">
+			<div class="column">
+				<img src="/images/new/Image-21.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-22.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-23.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-24.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+		  </div>
+
+		  <div class="row">
+			<div class="column">
+				<img src="/images/main/21.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/main/22.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/main/23.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/main/24.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+		  </div>
+
+
+		  <div class="row">
+			<div class="column">
+				<img src="/images/new/Image-25.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-26.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-27.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-28.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+		  </div>
+
+		  <div class="row">
+			<div class="column">
+				<img src="/images/main/25.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/main/26.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/main/27.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/main/28.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+		  </div>
+
+
+		  <div class="row">
+			<div class="column">
+				<img src="/images/new/Image-29.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-30.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-31.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-32.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+		  </div>
+
+		  <div class="row">
+			<div class="column">
+				<img src="/images/main/29.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/main/30.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/main/31.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/main/32.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+		  </div>
+
+		  <div class="row">
+			<div class="column">
+				<img src="/images/main/FilmSet.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/main/Mandap.JPG" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/main/Wedding.jpg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-33.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+		  </div>
+
+		  <div class="row">
+			<div class="column">
+				<img src="/images/new/Image-34.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-35.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-36.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-37.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+		  </div>
+
+		  <div class="row">
+			<div class="column">
+				<img src="/images/new/Image-38.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-39.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-40.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-41.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+		  </div>
+
+		  <div class="row">
+			<div class="column">
+				<img src="/images/new/Image-42.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-43.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-44.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-45.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+		  </div>
+
+		  <div class="row">
+			<div class="column">
+				<img src="/images/new/Image-46.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-47.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-48.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+			
+			<div class="column">
+				<img src="/images/new/Image-49.jpeg" style="width:100%; height:160px" onclick="onClick(this)">
+			</div>
+		  </div>
+
 		  
+<!-- ------------------ -->
 		  <div class="w3-col m4 w3-margin-bottom">
 				<a href="/index.html" class="button" id="MorePicturesButton" onclick="morePictures()">Back to Home</a>
-				<!--<a href="/index.html" style="text-decoration:none;"><button type="submit" id="MorePicturesButton" onclick="morePictures()" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" style="width:904px">Back to home</button></a> -->
 		</div>
 		<!--
 		  <div class="w3-container" id="MorePictures" style="margin-top:566px">
