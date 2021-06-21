@@ -7,6 +7,8 @@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
 	<style>
 		body,h1,h2,h3,h4,h5 {
 			font-family: "Poppins", sans-serif
@@ -71,7 +73,7 @@
 				flex-direction: column;
 			}
 		}
-		.float{
+		.whatsapp{
 			position:fixed;
 			width:60px;
 			height:60px;
@@ -85,16 +87,33 @@
 			box-shadow: 2px 2px 3px #999;
 			z-index:100;
 		}
-
+		.phone-call {
+			position: fixed;
+			width: 50px;
+			height: 50px;
+			bottom: 40px;
+			text-align: center;
+			font-size: 30px;
+			right: 15px;
+			z-index: 100;
+		}
 		.my-float{
 			margin-top:16px;
+		}
+		.line p {
+			font-size:16px !important;
 		}
 	</style>
 	</head><body>
 
-		<a href="https://api.whatsapp.com/send?phone=919819201453" class="float" target="_blank">
-			<i class="fa fa-whatsapp my-float"></i>
+		<a href="https://api.whatsapp.com/send?phone=919819201453" class="whatsapp" target="_blank">
+			<!--<i class="fa fa-whatsapp my-float"></i> -->
+			<img src="/images/logo/WAP.jpeg">
 		</a>
+	</a>
+	<a class="phone-call" href="tel:9819210453">
+ 		<img src="/images/logo/call.png">
+	</a>
 		<!-- Sidebar/menu -->
 		<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index: 3; width: 300px; font-weight: bold; display: none;" id="mySidebar"><br>
 			<a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
@@ -353,12 +372,24 @@
 		  </div>
 		</div>
 		
-		<!-- W3.CSS Container -->
+		<!-- W3.CSS Container 
 		<div class="w3-light-grey w3-container w3-padding-32 row" style="margin-top:70px;">
 			<div class="w3-half column" style="width: 80%; text-align: end;">
 				<span style="padding:0px 300px">Copyright © <script>document.write(new Date().getFullYear())</script> Anjani Decorators. All Rights Reserved.</span>
 			</div>			
-		</div> 
+		</div> -->
+		<!-- FOOTER -->
+		<footer>
+			<div class="line">
+				<div class="s-12 l-6">
+					<p>Copyright © <script>document.write(new Date().getFullYear())</script>Anjani Decorators. All Rights Reserved.</p>
+				</div>
+				<div class="s-12 l-6">
+					<a class="right" href="http://www.hummerrathor.com" title="Responsee - lightweight responsive framework" style="color:#ffffff;">Hummer Decoration<br> vinod.rathor37@gmail.com</a>
+				</div>
+			</div>
+			</footer>
+
 
 		<script>
 		// Script to open and close sidebar
