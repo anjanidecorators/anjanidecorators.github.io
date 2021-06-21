@@ -7,6 +7,9 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="floating-wpp.min.css">
+	<script src="//code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="floating-wpp.min.js"></script>
 	<style>
 		body,h1,h2,h3,h4,h5 {
 			font-family: "Poppins", sans-serif
@@ -74,6 +77,7 @@
 	</style>
 	</head><body>
 
+		<div class="floating-wpp"></div>
 		<!-- Sidebar/menu -->
 		<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index: 3; width: 300px; font-weight: bold; display: none;" id="mySidebar"><br>
 			<a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
@@ -361,6 +365,19 @@
 		  var captionText = document.getElementById("caption");
 		  captionText.innerHTML = element.alt;
 		}
+		$(function () {
+        $('.floating-wpp').floatingWhatsApp({
+            phone: '919819201453',
+            popupMessage: 'Welcome to Anjani Decorators',
+            showPopup: true,
+            position: 'right', // left or right
+            autoOpen: false, // true or false
+            //autoOpenTimer: 4000,
+            message: 'Hello! I wan to enquire something.',
+            //headerColor: 'orange', // enable to change msg box color
+            headerTitle: 'Whatsapp Message',
+        });
+    });
 		</script>
 
 	
