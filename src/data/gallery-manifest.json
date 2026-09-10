@@ -1,7 +1,47 @@
 {
-  "generatedAt": "2026-09-10T08:56:27.948Z",
+  "generatedAt": "2026-09-10T12:28:57.464Z",
   "services": {
     "mandap-decoration": [
+      {
+        "path": "/images/mandap-decoration/2026-09-10-decor-99.jpg",
+        "filename": "2026-09-10-decor-99.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/mandap-decoration/2026-09-10-decor-80.jpg",
+        "filename": "2026-09-10-decor-80.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/mandap-decoration/2026-09-10-decor-7.jpg",
+        "filename": "2026-09-10-decor-7.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/mandap-decoration/2026-09-10-decor-62.JPG",
+        "filename": "2026-09-10-decor-62.JPG",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/mandap-decoration/2026-09-10-decor-50.jpg",
+        "filename": "2026-09-10-decor-50.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/mandap-decoration/2026-09-10-decor-44.jpg",
+        "filename": "2026-09-10-decor-44.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/mandap-decoration/2026-09-10-decor-43.jpg",
+        "filename": "2026-09-10-decor-43.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/mandap-decoration/2026-09-10-decor-129.jpg",
+        "filename": "2026-09-10-decor-129.jpg",
+        "date": "2026-09-10"
+      },
       {
         "path": "/images/mandap-decoration/2025-01-10-celebration.jpg",
         "filename": "2025-01-10-celebration.jpg",
@@ -64,19 +104,49 @@
         "date": "2024-01-01"
       }
     ],
-    "birthday-decoration": [
+    "home-events": [
       {
-        "path": "/images/birthday-decoration/2025-01-01-birthday.jpg",
+        "path": "/images/home-events/2026-09-10-decor-9.jpg",
+        "filename": "2026-09-10-decor-9.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/home-events/2025-01-01-birthday.jpg",
         "filename": "2025-01-01-birthday.jpg",
         "date": "2025-01-01"
       },
       {
-        "path": "/images/birthday-decoration/2024-01-01-celebration.jpg",
+        "path": "/images/home-events/2024-01-01-celebration.jpg",
         "filename": "2024-01-01-celebration.jpg",
         "date": "2024-01-01"
       }
     ],
     "catering-service": [
+      {
+        "path": "/images/catering-service/2026-09-10-decor-78.jpg",
+        "filename": "2026-09-10-decor-78.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/catering-service/2026-09-10-decor-76.jpg",
+        "filename": "2026-09-10-decor-76.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/catering-service/2026-09-10-decor-75.jpg",
+        "filename": "2026-09-10-decor-75.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/catering-service/2026-09-10-decor-58.png",
+        "filename": "2026-09-10-decor-58.png",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/catering-service/2026-09-10-decor-33.jpeg",
+        "filename": "2026-09-10-decor-33.jpeg",
+        "date": "2026-09-10"
+      },
       {
         "path": "/images/catering-service/2025-01-01-catering.jpg",
         "filename": "2025-01-01-catering.jpg",
