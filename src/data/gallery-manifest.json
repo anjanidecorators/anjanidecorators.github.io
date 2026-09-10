@@ -1,0 +1,93 @@
+{
+  "generatedAt": "2026-09-10T08:56:27.948Z",
+  "services": {
+    "mandap-decoration": [
+      {
+        "path": "/images/mandap-decoration/2025-01-10-celebration.jpg",
+        "filename": "2025-01-10-celebration.jpg",
+        "date": "2025-01-10"
+      },
+      {
+        "path": "/images/mandap-decoration/2025-01-09-celebration.jpeg",
+        "filename": "2025-01-09-celebration.jpeg",
+        "date": "2025-01-09"
+      },
+      {
+        "path": "/images/mandap-decoration/2025-01-01-mandap.jpg",
+        "filename": "2025-01-01-mandap.jpg",
+        "date": "2025-01-01"
+      }
+    ],
+    "wedding-decoration": [
+      {
+        "path": "/images/wedding-decoration/2025-01-01-wedding.jpg",
+        "filename": "2025-01-01-wedding.jpg",
+        "date": "2025-01-01"
+      },
+      {
+        "path": "/images/wedding-decoration/2024-01-01-celebration.jpg",
+        "filename": "2024-01-01-celebration.jpg",
+        "date": "2024-01-01"
+      },
+      {
+        "path": "/images/wedding-decoration/2023-08-20-celebration.jpg",
+        "filename": "2023-08-20-celebration.jpg",
+        "date": "2023-08-20"
+      }
+    ],
+    "stage-lighting": [
+      {
+        "path": "/images/stage-lighting/2025-01-01-stage-lighting.jpg",
+        "filename": "2025-01-01-stage-lighting.jpg",
+        "date": "2025-01-01"
+      },
+      {
+        "path": "/images/stage-lighting/2024-01-01-celebration.jpeg",
+        "filename": "2024-01-01-celebration.jpeg",
+        "date": "2024-01-01"
+      },
+      {
+        "path": "/images/stage-lighting/2021-12-26-celebration.jpg",
+        "filename": "2021-12-26-celebration.jpg",
+        "date": "2021-12-26"
+      }
+    ],
+    "party-decoration": [
+      {
+        "path": "/images/party-decoration/2025-01-01-party.jpeg",
+        "filename": "2025-01-01-party.jpeg",
+        "date": "2025-01-01"
+      },
+      {
+        "path": "/images/party-decoration/2024-01-01-celebration.jpg",
+        "filename": "2024-01-01-celebration.jpg",
+        "date": "2024-01-01"
+      }
+    ],
+    "birthday-decoration": [
+      {
+        "path": "/images/birthday-decoration/2025-01-01-birthday.jpg",
+        "filename": "2025-01-01-birthday.jpg",
+        "date": "2025-01-01"
+      },
+      {
+        "path": "/images/birthday-decoration/2024-01-01-celebration.jpg",
+        "filename": "2024-01-01-celebration.jpg",
+        "date": "2024-01-01"
+      }
+    ],
+    "catering-service": [
+      {
+        "path": "/images/catering-service/2025-01-01-catering.jpg",
+        "filename": "2025-01-01-catering.jpg",
+        "date": "2025-01-01"
+      }
+    ],
+    "balloon-decoration": []
+  },
+  "hero": [
+    "/images/hero/2026-09-10-anjani-hero.jpg",
+    "/images/hero/2026-09-09-anjani-details.jpeg"
+  ],
+  "testimonials": []
+}
