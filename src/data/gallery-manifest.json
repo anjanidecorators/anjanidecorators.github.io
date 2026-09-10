@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T12:28:57.464Z",
+  "generatedAt": "2026-09-10T16:32:00.371Z",
   "services": {
     "mandap-decoration": [
       {
@@ -60,39 +60,279 @@
     ],
     "wedding-decoration": [
       {
+        "path": "/images/wedding-decoration/2026-09-10-decor-98.jpg",
+        "filename": "2026-09-10-decor-98.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-87.jpg",
+        "filename": "2026-09-10-decor-87.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-83.jpg",
+        "filename": "2026-09-10-decor-83.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-72.jpg",
+        "filename": "2026-09-10-decor-72.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-71.jpg",
+        "filename": "2026-09-10-decor-71.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-70.jpg",
+        "filename": "2026-09-10-decor-70.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-64.jpg",
+        "filename": "2026-09-10-decor-64.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-63.JPG",
+        "filename": "2026-09-10-decor-63.JPG",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-61.jpg",
+        "filename": "2026-09-10-decor-61.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-57.jpg",
+        "filename": "2026-09-10-decor-57.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-55.jpg",
+        "filename": "2026-09-10-decor-55.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-5.png",
+        "filename": "2026-09-10-decor-5.png",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-38.jpg",
+        "filename": "2026-09-10-decor-38.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-29.jpg",
+        "filename": "2026-09-10-decor-29.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-26.jpeg",
+        "filename": "2026-09-10-decor-26.jpeg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-21.jpg",
+        "filename": "2026-09-10-decor-21.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-2.jpeg",
+        "filename": "2026-09-10-decor-2.jpeg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-18.jpeg",
+        "filename": "2026-09-10-decor-18.jpeg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-128.jpg",
+        "filename": "2026-09-10-decor-128.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-127.jpg",
+        "filename": "2026-09-10-decor-127.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-126.jpg",
+        "filename": "2026-09-10-decor-126.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-125.jpg",
+        "filename": "2026-09-10-decor-125.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-124.jpg",
+        "filename": "2026-09-10-decor-124.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-123.jpg",
+        "filename": "2026-09-10-decor-123.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-122.jpg",
+        "filename": "2026-09-10-decor-122.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-121.jpg",
+        "filename": "2026-09-10-decor-121.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-119.jpg",
+        "filename": "2026-09-10-decor-119.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-111.jpg",
+        "filename": "2026-09-10-decor-111.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-105.jpg",
+        "filename": "2026-09-10-decor-105.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-103.jpeg",
+        "filename": "2026-09-10-decor-103.jpeg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-102.jpg",
+        "filename": "2026-09-10-decor-102.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-101.jpg",
+        "filename": "2026-09-10-decor-101.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/wedding-decoration/2026-09-10-decor-100.jpg",
+        "filename": "2026-09-10-decor-100.jpg",
+        "date": "2026-09-10"
+      },
+      {
         "path": "/images/wedding-decoration/2025-01-01-wedding.jpg",
         "filename": "2025-01-01-wedding.jpg",
         "date": "2025-01-01"
-      },
-      {
-        "path": "/images/wedding-decoration/2024-01-01-celebration.jpg",
-        "filename": "2024-01-01-celebration.jpg",
-        "date": "2024-01-01"
-      },
-      {
-        "path": "/images/wedding-decoration/2023-08-20-celebration.jpg",
-        "filename": "2023-08-20-celebration.jpg",
-        "date": "2023-08-20"
       }
     ],
     "stage-lighting": [
       {
+        "path": "/images/stage-lighting/2026-09-10-decor-89.jpg",
+        "filename": "2026-09-10-decor-89.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/stage-lighting/2026-09-10-decor-54.jpg",
+        "filename": "2026-09-10-decor-54.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/stage-lighting/2026-09-10-decor-53.jpg",
+        "filename": "2026-09-10-decor-53.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/stage-lighting/2026-09-10-decor-45.jpg",
+        "filename": "2026-09-10-decor-45.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/stage-lighting/2026-09-10-decor-40.jpg",
+        "filename": "2026-09-10-decor-40.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/stage-lighting/2026-09-10-decor-39.jpg",
+        "filename": "2026-09-10-decor-39.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/stage-lighting/2026-09-10-decor-28.jpg",
+        "filename": "2026-09-10-decor-28.jpg",
+        "date": "2026-09-10"
+      },
+      {
         "path": "/images/stage-lighting/2025-01-01-stage-lighting.jpg",
         "filename": "2025-01-01-stage-lighting.jpg",
         "date": "2025-01-01"
-      },
-      {
-        "path": "/images/stage-lighting/2024-01-01-celebration.jpeg",
-        "filename": "2024-01-01-celebration.jpeg",
-        "date": "2024-01-01"
-      },
-      {
-        "path": "/images/stage-lighting/2021-12-26-celebration.jpg",
-        "filename": "2021-12-26-celebration.jpg",
-        "date": "2021-12-26"
       }
     ],
     "party-decoration": [
+      {
+        "path": "/images/party-decoration/2026-09-10-decor-97.jpg",
+        "filename": "2026-09-10-decor-97.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/party-decoration/2026-09-10-decor-92.jpeg",
+        "filename": "2026-09-10-decor-92.jpeg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/party-decoration/2026-09-10-decor-84.jpg",
+        "filename": "2026-09-10-decor-84.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/party-decoration/2026-09-10-decor-79.jpg",
+        "filename": "2026-09-10-decor-79.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/party-decoration/2026-09-10-decor-69.jpg",
+        "filename": "2026-09-10-decor-69.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/party-decoration/2026-09-10-decor-35.JPG",
+        "filename": "2026-09-10-decor-35.JPG",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/party-decoration/2026-09-10-decor-3.jpeg",
+        "filename": "2026-09-10-decor-3.jpeg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/party-decoration/2026-09-10-decor-27.jpeg",
+        "filename": "2026-09-10-decor-27.jpeg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/party-decoration/2026-09-10-decor-23.jpeg",
+        "filename": "2026-09-10-decor-23.jpeg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/party-decoration/2026-09-10-decor-22.jpeg",
+        "filename": "2026-09-10-decor-22.jpeg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/party-decoration/2026-09-10-decor-110.jpg",
+        "filename": "2026-09-10-decor-110.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/party-decoration/2026-09-10-decor-1.jpg",
+        "filename": "2026-09-10-decor-1.jpg",
+        "date": "2026-09-10"
+      },
       {
         "path": "/images/party-decoration/2025-01-01-party.jpeg",
         "filename": "2025-01-01-party.jpeg",
@@ -106,14 +346,114 @@
     ],
     "home-events": [
       {
-        "path": "/images/home-events/2026-09-10-decor-9.jpg",
-        "filename": "2026-09-10-decor-9.jpg",
+        "path": "/images/home-events/2026-09-10-decor-95.jpg",
+        "filename": "2026-09-10-decor-95.jpg",
         "date": "2026-09-10"
       },
       {
-        "path": "/images/home-events/2025-01-01-birthday.jpg",
-        "filename": "2025-01-01-birthday.jpg",
-        "date": "2025-01-01"
+        "path": "/images/home-events/2026-09-10-decor-8.jpg",
+        "filename": "2026-09-10-decor-8.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/home-events/2026-09-10-decor-60.jpg",
+        "filename": "2026-09-10-decor-60.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/home-events/2026-09-10-decor-59.jpg",
+        "filename": "2026-09-10-decor-59.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/home-events/2026-09-10-decor-52.jpg",
+        "filename": "2026-09-10-decor-52.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/home-events/2026-09-10-decor-4.jpeg",
+        "filename": "2026-09-10-decor-4.jpeg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/home-events/2026-09-10-decor-32.jpeg",
+        "filename": "2026-09-10-decor-32.jpeg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/home-events/2026-09-10-decor-31.jpeg",
+        "filename": "2026-09-10-decor-31.jpeg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/home-events/2026-09-10-decor-25.jpeg",
+        "filename": "2026-09-10-decor-25.jpeg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/home-events/2026-09-10-decor-20.jpeg",
+        "filename": "2026-09-10-decor-20.jpeg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/home-events/2026-09-10-decor-17.jpeg",
+        "filename": "2026-09-10-decor-17.jpeg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/home-events/2026-09-10-decor-16.jpeg",
+        "filename": "2026-09-10-decor-16.jpeg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/home-events/2026-09-10-decor-15.jpeg",
+        "filename": "2026-09-10-decor-15.jpeg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/home-events/2026-09-10-decor-14.jpeg",
+        "filename": "2026-09-10-decor-14.jpeg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/home-events/2026-09-10-decor-13.jpg",
+        "filename": "2026-09-10-decor-13.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/home-events/2026-09-10-decor-120.jpg",
+        "filename": "2026-09-10-decor-120.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/home-events/2026-09-10-decor-11.jpeg",
+        "filename": "2026-09-10-decor-11.jpeg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/home-events/2026-09-10-decor-109.jpg",
+        "filename": "2026-09-10-decor-109.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/home-events/2026-09-10-decor-108.jpg",
+        "filename": "2026-09-10-decor-108.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/home-events/2026-09-10-decor-107.jpg",
+        "filename": "2026-09-10-decor-107.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/home-events/2026-09-10-decor-106.jpg",
+        "filename": "2026-09-10-decor-106.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/home-events/2026-09-10-decor-104.jpg",
+        "filename": "2026-09-10-decor-104.jpg",
+        "date": "2026-09-10"
       },
       {
         "path": "/images/home-events/2024-01-01-celebration.jpg",
@@ -153,11 +493,103 @@
         "date": "2025-01-01"
       }
     ],
-    "balloon-decoration": []
+    "balloon-decoration": [
+      {
+        "path": "/images/balloon-decoration/2026-09-10-decor-9.jpg",
+        "filename": "2026-09-10-decor-9.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/balloon-decoration/2026-09-10-decor-30.jpg",
+        "filename": "2026-09-10-decor-30.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/balloon-decoration/2026-09-10-decor-19.jpg",
+        "filename": "2026-09-10-decor-19.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/balloon-decoration/2026-09-10-decor-12.jpeg",
+        "filename": "2026-09-10-decor-12.jpeg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/balloon-decoration/2026-09-10-decor-113.jpg",
+        "filename": "2026-09-10-decor-113.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/balloon-decoration/2026-09-10-decor-10.jpg",
+        "filename": "2026-09-10-decor-10.jpg",
+        "date": "2026-09-10"
+      },
+      {
+        "path": "/images/balloon-decoration/2025-01-01-birthday.jpg",
+        "filename": "2025-01-01-birthday.jpg",
+        "date": "2025-01-01"
+      }
+    ]
   },
   "hero": [
     "/images/hero/2026-09-10-anjani-hero.jpg",
     "/images/hero/2026-09-09-anjani-details.jpeg"
   ],
-  "testimonials": []
+  "testimonials": [
+    {
+      "path": "/images/testimonials/2026-09-10-decor-9.jpg",
+      "filename": "2026-09-10-decor-9.jpg",
+      "date": "2026-09-10"
+    },
+    {
+      "path": "/images/testimonials/2026-09-10-decor-8.jpg",
+      "filename": "2026-09-10-decor-8.jpg",
+      "date": "2026-09-10"
+    },
+    {
+      "path": "/images/testimonials/2026-09-10-decor-7.jpg",
+      "filename": "2026-09-10-decor-7.jpg",
+      "date": "2026-09-10"
+    },
+    {
+      "path": "/images/testimonials/2026-09-10-decor-6.jpg",
+      "filename": "2026-09-10-decor-6.jpg",
+      "date": "2026-09-10"
+    },
+    {
+      "path": "/images/testimonials/2026-09-10-decor-5.jpg",
+      "filename": "2026-09-10-decor-5.jpg",
+      "date": "2026-09-10"
+    },
+    {
+      "path": "/images/testimonials/2026-09-10-decor-4.jpg",
+      "filename": "2026-09-10-decor-4.jpg",
+      "date": "2026-09-10"
+    },
+    {
+      "path": "/images/testimonials/2026-09-10-decor-3.jpg",
+      "filename": "2026-09-10-decor-3.jpg",
+      "date": "2026-09-10"
+    },
+    {
+      "path": "/images/testimonials/2026-09-10-decor-2.jpg",
+      "filename": "2026-09-10-decor-2.jpg",
+      "date": "2026-09-10"
+    },
+    {
+      "path": "/images/testimonials/2026-09-10-decor-11.jpg",
+      "filename": "2026-09-10-decor-11.jpg",
+      "date": "2026-09-10"
+    },
+    {
+      "path": "/images/testimonials/2026-09-10-decor-10.jpg",
+      "filename": "2026-09-10-decor-10.jpg",
+      "date": "2026-09-10"
+    },
+    {
+      "path": "/images/testimonials/2026-09-10-decor-1.jpg",
+      "filename": "2026-09-10-decor-1.jpg",
+      "date": "2026-09-10"
+    }
+  ]
 }
